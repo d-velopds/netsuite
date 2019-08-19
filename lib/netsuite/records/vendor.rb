@@ -19,7 +19,7 @@ module NetSuite
              :opening_balance_date, :password, :password2, :phone, :phonetic_name, :pricing_schedule_list,
              :print_on_check_as, :print_transactions, :require_pwd_change, :roles_list, :salutation,
              :send_email, :subscriptions_list, :tax_id_num, :title, :unbilled_orders, :unbilled_orders_primary,
-             :url, :vat_reg_number
+             :url, :vat_reg_number, :address1, :address2, :address3, :city, :country, :zip_code
 
       field :custom_field_list, CustomFieldList
       # TODO should change name to VendorAddressBookList
