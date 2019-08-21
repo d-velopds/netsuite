@@ -16,8 +16,7 @@ module NetSuite
              :tax2_total, :tax_total, :to_be_emailed, :to_be_faxed, :to_be_printed,
              :total, :tracking_numbers, :tran_date, :tran_id, :vat_reg_num, :main_line,
              :tax_line, :tax_code, :rate, :quantity, :quantity_ship_recv, :quantity_uom, :memo,
-             :location, :department, :class, :line, :line_unique_key, :unit, :item,
-             :amount
+             :location, :department, :line, :line_unique_key, :unit, :item, :amount
 
       field :billing_address,   Address
       field :shipping_address,  Address
