@@ -8,7 +8,7 @@ module NetSuite
 
       actions :get, :get_list, :add, :update, :upsert, :delete, :search
 
-      fields :is_inactive, :name
+      fields :is_inactive, :name, :base_unit, :conversion_rate, :unit_name
 
       field :uom_list, UnitsTypeUomList
 
