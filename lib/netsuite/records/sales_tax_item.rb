@@ -21,6 +21,8 @@ module NetSuite
       record_refs :tax_type, :tax_agency, :tax_account, :purchase_account,
         :sale_account, :parent, :nexus_country
 
+      field :subsidiary_list, RecordRefList
+
       attr_reader :internal_id
       attr_accessor :external_id
 
