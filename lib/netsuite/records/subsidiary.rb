@@ -21,6 +21,7 @@ module NetSuite
         :ship_zip, :state1_tax_number, :ssn_or_tin, :inbound_email
 
       field :custom_field_list, CustomFieldList
+      field :main_address, Address
 
       record_refs :check_layout, :inter_co_account, :parent, :logo,
         :page_logo, :fiscal_calendar, :tax_fiscal_calendar, :currency
